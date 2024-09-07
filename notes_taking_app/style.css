@@ -1,0 +1,72 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(173, 114, 126);
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgb(173, 114, 126); */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note{
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 12px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+    
+}
+
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(56, 54, 54);
+    color: wheat;
+    padding: 8px;
+    display: flex;
+    justify-content: end;
+    /* gap: 10px; */
+}
+.top i{
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.note textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 6px;
+    font-size: 16px;
+}
+.note textarea :focus{
+    border: none;
+    outline: none;
+}
+
+#addNote{
+    position: fixed;
+    right: 16px;
+    top: 16px;
+    background-color: rgb(56, 54, 54);
+    padding: 10px 20px;
+    color: wheat;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
